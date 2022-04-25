@@ -1,0 +1,178 @@
+<!--<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta http-equiv = "X-UA-Compatible" content = "ie = edge">
+        <link href = https://fonts.googleapis.com/css?family=Poppins" rel = "stylesheet">
+        <link rel = "stylesheet" href = "HindAggMain.css"/>
+        <script defer src = "https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <title>HIND MAIN</title>
+    </head>
+    <body background = "IndianFlagBG.png" style = "background-size: cover;">
+        <nav>
+            <div class = "search-bar">
+                <input class = "search-txt" type = "text" name = "" placeholder = "Type to search">
+                <a class = "search-btn" href = "#">
+                    <i class = "fas fa-search"></i>
+                </a>
+            </div>
+            <div class = "logo">
+                <h4>Hind Aggregator</h4>
+            </div>
+            <ul class = "nav-links">
+                <li>
+                    <a href = "HindAggMain.html">Home</a>
+                </li>
+                <li>
+                    <a href = "Login.html">Login</a>
+                </li>
+                <li>
+                    <a href = "#">Categories</a>
+                </li>
+                <li>
+                    <a href = "#">About Us</a>
+                </li>
+                <li>
+                    <a href = "#">Contact Us</a>
+                </li>
+            </ul>
+            <div class = "navtool">
+                <div class = "line1"></div>
+                <div class = "line2"></div>
+                <div class = "line3"></div>
+            </div>
+        </nav>
+        <script>const navSlide = () =>
+            {
+                const navtool = document.querySelector('.navtool');
+                const nav = document.querySelector('.nav-links');
+                const navLinks = document.querySelectorAll('.nav-links li');
+                navtool.addEventListener('click', () =>
+                {
+                    nav.classList.toggle('nav-active');
+                    navLinks.forEach((link,index) => 
+                    {
+                        if (link.style.animation)
+                        {
+                            link.style.animation = '';
+                        }
+                        else
+                        {
+                            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                        }
+                    });
+                    navtool.classList.toggle('toggle');
+                });
+            }
+            navSlide();
+        </script>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="HindAggMain.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <a href="#">HindAggregator</a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <div class="banner"></div>
+  <div class="about">
+    <div class="content">
+      <div class="title">Responsive Sticky Navigation Menu Bar on Scroll using HTML CSS & JavaScript</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo impedit atque consequatur! Iusto distinctio temporibus repellendus labore odit adipisci harum ipsa beatae natus, eum eius, hic aperiam odio! Quasi molestias magnam illo voluptatem iusto ipsam blanditiis, tempore cumque reiciendis quaerat vero tenetur, sequi dolores libero voluptas vitae voluptate placeat dolorum modi ipsa nisi repellat facilis aliquam asperiores. Aut nam repellat harum quas saepe dolorum voluptates ratione, itaque consectetur explicabo a facilis rem mollitia maxime repudiandae fuga reprehenderit, odio cum incidunt labore molestiae quis non perferendis ipsam. Illum, in, deserunt. Ipsa.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit hic excepturi nobis id, eos dolor libero, nam assumenda, at culpa quos perspiciatis ratione ea modi! Natus sapiente a, explicabo sit quisquam eligendi esse provident eos enim doloremque blanditiis aut placeat veniam, libero nostrum quae. Ipsam, iste reprehenderit minima accusantium illo dolorem recusandae, ipsa autem quidem reiciendis a mollitia sit tenetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint doloremque perspiciatis voluptate ducimus reiciendis rem expedita voluptatibus dicta harum, quo, aspernatur maiores possimus officia quod? Aliquid molestiae illo sequi, tempora perferendis at incidunt nam porro voluptatibus, iste aperiam blanditiis adipisci ducimus repellendus distinctio nostrum ipsum! Voluptas facilis cum, atque tempora magnam beatae sequi! Doloribus expedita, cupiditate quo quod nemo aliquam, mollitia cum ea nam ullam soluta temporibus! Repudiandae incidunt consequatur distinctio deleniti obcaecati sit facilis unde, quisquam veniam ad doloribus!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet veniam error deleniti cum beatae non assumenda illum est dolores, possimus suscipit quibusdam eveniet id fuga dolore unde modi, sapiente voluptas. Mollitia veritatis explicabo cumque enim quia voluptates provident totam perferendis excepturi animi assumenda optio minus laudantium eveniet possimus amet blanditiis dolore in fuga atque, earum officia tempora quam similique est.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ad sunt distinctio quidem incidunt cupiditate sequi deleniti, corrupti officia nam veritatis facilis veniam dolorum enim nisi ipsum dolor rem! Doloribus, eaque odit voluptatem iste laboriosam provident facere quo. Cum repellat pariatur, error ratione repellendus nisi quam culpa tempora facere in atque nesciunt, magni est aliquid unde soluta optio! Dolore pariatur, quaerat quo in cupiditate deleniti exercitationem. Facilis suscipit corporis unde aut minima nihil, eum molestias itaque, tenetur, beatae ipsa at!</p>
+    </div>
+  </div>
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link rel="stylesheet" href="HindAggMain.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo">HindAggregator</div>
+        <ul class="links">
+          <li><a href="HindAggMain.html">Home</a></li>
+          <li>
+            <a href="#" class="desktop-link">Categories</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Categories</label>
+            <ul>
+              <li><a href="Topics.html">Topics</a></li>
+              <li><a href="Services.html">Services</a></li>
+              <li><a href="Government.html">Government</a></li>
+              <li><a href="AboutIndia.html">About India</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="https://hindagg096099135.000webhostapp.com/Contact.php">Contact Us</a></li>
+          <li><a href="https://hindagg096099135.000webhostapp.com/login-user.php">LOGIN</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+</div>
+</body>
+</html>
